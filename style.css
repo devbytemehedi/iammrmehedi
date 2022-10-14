@@ -59,6 +59,9 @@ body {
   border-radius: 3px;
   padding: 0 10px;
 }
+.search input:focus {
+  outline: none;
+}
 .search .btn {
   cursor: pointer;
   padding: 2.7px 5px;
