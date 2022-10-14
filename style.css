@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   overflow-x: hidden;
@@ -21,8 +22,9 @@ body {
   padding: 20px 10%;
   background-color: black;
   font-family: var(--font-merriweather);
-  height: 5vh;
-  width: auto;
+  /* height: 10vh; */
+  width: 100%;
+  position: fixed;
 }
 
 .top-header .text-logo a {
@@ -77,6 +79,8 @@ body {
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
     url("https://source.unsplash.com/1920x1080/?coding, laptop");
+  background-position: center center;
+  background-attachment: fixed;
 }
 #main-header .main-text {
   display: flex;
